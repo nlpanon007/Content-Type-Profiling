@@ -1,6 +1,8 @@
-# Content Type Profiling of Data-to-Text Datasets
+# Content Type Profiling of Data-to-Text Generation Dataset
 
 This repo contains the code and experimental results for the D2T Datasets Content Type Profiling.
+
+**Note:** This repository is to compliment the submitted paper. It will be deleted after conference's anonymity period is over.
 
 ## Things that can be done with the code in this repo
 
@@ -202,12 +204,3 @@ For that you need docker to be installed.
     </details>
     
     * Follow the instructions from 6-7 to start labelling the data.
-
-
-## Important Notes
-
-1. Save the plot results collected in dataframe to a csv file
-
-2. Make sure to replace all `nltk.sent_tokenize` with `spacy's doc.sents`
-
-<!-- cousins had a great game in his debut with New Orelans : this should be within/across event both, coz debut info is across event -->
